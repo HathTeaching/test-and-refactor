@@ -24,21 +24,19 @@ function * ints() {
 // }
 
 export function all<T>(iterables: Iterable<T>, fn: (item: T) => boolean): boolean {
-  for(let item of iterables) {
-    if(!fn(item)) {
-      return false;
-    }
-  }
-  return true;
+//to implement
 }
 
 export function any<T>(iterables: Iterable<T>, fn: (item: T) => boolean): boolean {
-  for(let item of iterables) {
-    if(fn(item)) {
-      return true;
-    }
-  }
-  return false;
+//to implement
+}
+
+export function map<From, To>(iterables: Iterable<From>, fn: (item: From) => To): Array<To> {
+// to implement
+}
+
+export function imap<From, To>(iterables: Iterable<From>, fn: (item: From) => To): Iterable<To> {
+// to implement
 }
 
 /*
