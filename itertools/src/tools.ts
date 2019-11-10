@@ -35,7 +35,7 @@ export function map<From, To>(iterables: Iterable<From>, fn: (item: From) => To)
 // to implement
 }
 
-export function imap<From, To>(iterables: Iterable<From>, fn: (item: From) => To): Iterable<To> {
+export function imap<From, To>(iterables: Iterable<From>, fn: (item: From) => To): IterableIterator<To> {
 // to implement
 }
 
